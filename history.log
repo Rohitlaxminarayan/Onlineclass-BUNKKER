@@ -1,0 +1,781 @@
+2021-03-11 11:57:52,218:INFO:We will now wait for 127seconds for the next class
+2021-03-11 12:00:01,559:DEBUG:POST http://127.0.0.1:32887/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:00:01,560:DEBUG:Starting new HTTP connection (1): 127.0.0.1:32887
+2021-03-11 12:00:03,729:DEBUG:http://127.0.0.1:32887 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:00:03,731:DEBUG:Finished Request
+2021-03-11 12:00:03,731:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/window/minimize {}
+2021-03-11 12:00:03,843:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:00:03,844:DEBUG:Finished Request
+2021-03-11 12:00:03,844:INFO:open browser code is successfully executed
+2021-03-11 12:00:03,844:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/url {"url": "https://iitmadras.webex.com/iitmadras/j.php?MTID=mbec063bb83d6ac034dd844153067cc24"}
+2021-03-11 12:00:09,784:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/url HTTP/1.1" 200 14
+2021-03-11 12:00:09,785:DEBUG:Finished Request
+2021-03-11 12:00:09,785:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"smartJoinButton\"]"}
+2021-03-11 12:00:09,805:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 200 88
+2021-03-11 12:00:09,806:DEBUG:Finished Request
+2021-03-11 12:00:09,806:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element/c089d66c-7a81-4c6f-b137-34b1138a1875/click {"id": "c089d66c-7a81-4c6f-b137-34b1138a1875"}
+2021-03-11 12:00:09,850:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element/c089d66c-7a81-4c6f-b137-34b1138a1875/click HTTP/1.1" 200 14
+2021-03-11 12:00:09,850:DEBUG:Finished Request
+2021-03-11 12:00:09,850:INFO:clicking join meeting button is executing...
+2021-03-11 12:00:14,852:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:14,869:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:14,870:DEBUG:Finished Request
+2021-03-11 12:00:15,371:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:15,402:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:15,403:DEBUG:Finished Request
+2021-03-11 12:00:15,905:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:16,075:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:16,076:DEBUG:Finished Request
+2021-03-11 12:00:16,578:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:16,592:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:16,593:DEBUG:Finished Request
+2021-03-11 12:00:17,094:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:17,122:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:17,123:DEBUG:Finished Request
+2021-03-11 12:00:17,624:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:17,650:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:17,651:DEBUG:Finished Request
+2021-03-11 12:00:18,152:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:18,177:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:18,178:DEBUG:Finished Request
+2021-03-11 12:00:18,679:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:18,688:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:18,688:DEBUG:Finished Request
+2021-03-11 12:00:19,189:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:19,214:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:19,215:DEBUG:Finished Request
+2021-03-11 12:00:19,716:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:19,740:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:19,741:DEBUG:Finished Request
+2021-03-11 12:00:20,242:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:20,269:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:20,270:DEBUG:Finished Request
+2021-03-11 12:00:20,771:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:20,785:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:20,785:DEBUG:Finished Request
+2021-03-11 12:00:21,286:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:21,300:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:21,300:DEBUG:Finished Request
+2021-03-11 12:00:21,801:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:21,826:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:21,827:DEBUG:Finished Request
+2021-03-11 12:00:22,328:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:22,351:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:22,352:DEBUG:Finished Request
+2021-03-11 12:00:22,853:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:22,876:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:22,877:DEBUG:Finished Request
+2021-03-11 12:00:23,378:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:23,392:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:23,392:DEBUG:Finished Request
+2021-03-11 12:00:23,893:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:23,917:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:23,918:DEBUG:Finished Request
+2021-03-11 12:00:24,419:DEBUG:POST http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:24,433:DEBUG:http://127.0.0.1:32887 "POST /session/0a0c214f857d3906159d1308b26d2c01/element HTTP/1.1" 404 250
+2021-03-11 12:00:24,433:DEBUG:Finished Request
+2021-03-11 12:00:24,934:ERROR:Error with browser navigations: Message: 
+
+2021-03-11 12:00:24,934:DEBUG:DELETE http://127.0.0.1:32887/session/0a0c214f857d3906159d1308b26d2c01 {}
+2021-03-11 12:00:24,987:DEBUG:http://127.0.0.1:32887 "DELETE /session/0a0c214f857d3906159d1308b26d2c01 HTTP/1.1" 200 14
+2021-03-11 12:00:24,988:DEBUG:Finished Request
+2021-03-11 12:00:25,100:WARNING:online class is unable to open - trying again
+2021-03-11 12:00:26,110:DEBUG:POST http://127.0.0.1:43227/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:00:26,111:DEBUG:Starting new HTTP connection (1): 127.0.0.1:43227
+2021-03-11 12:00:28,562:DEBUG:http://127.0.0.1:43227 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:00:28,563:DEBUG:Finished Request
+2021-03-11 12:00:28,563:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/window/minimize {}
+2021-03-11 12:00:28,717:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:00:28,717:DEBUG:Finished Request
+2021-03-11 12:00:28,717:INFO:open browser code is successfully executed
+2021-03-11 12:00:28,717:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/url {"url": "https://iitmadras.webex.com/iitmadras/j.php?MTID=mbec063bb83d6ac034dd844153067cc24"}
+2021-03-11 12:00:33,798:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/url HTTP/1.1" 200 14
+2021-03-11 12:00:33,798:DEBUG:Finished Request
+2021-03-11 12:00:33,798:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element {"using": "css selector", "value": "[id=\"smartJoinButton\"]"}
+2021-03-11 12:00:33,815:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element HTTP/1.1" 200 88
+2021-03-11 12:00:33,816:DEBUG:Finished Request
+2021-03-11 12:00:33,816:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/e5501510-0746-458e-8827-663c2ff6c120/click {"id": "e5501510-0746-458e-8827-663c2ff6c120"}
+2021-03-11 12:00:34,787:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/e5501510-0746-458e-8827-663c2ff6c120/click HTTP/1.1" 200 14
+2021-03-11 12:00:34,787:DEBUG:Finished Request
+2021-03-11 12:00:34,788:INFO:clicking join meeting button is executing...
+2021-03-11 12:00:39,793:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:39,839:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element HTTP/1.1" 200 88
+2021-03-11 12:00:39,840:DEBUG:Finished Request
+2021-03-11 12:00:39,840:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/frame {"id": {"ELEMENT": "d1f3d4c7-efb8-4464-8182-80afe2acbee6", "element-6066-11e4-a52e-4f735466cecf": "d1f3d4c7-efb8-4464-8182-80afe2acbee6"}}
+2021-03-11 12:00:39,879:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/frame HTTP/1.1" 200 14
+2021-03-11 12:00:39,880:DEBUG:Finished Request
+2021-03-11 12:00:39,880:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/elements {"using": "css selector", "value": ".style-input-2nuAk.undefined"}
+2021-03-11 12:00:39,894:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/elements HTTP/1.1" 200 169
+2021-03-11 12:00:39,895:DEBUG:Finished Request
+2021-03-11 12:00:39,895:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/18ac6bca-387e-459a-a7ba-9d673ea6bc0e/value {"text": "Chella Thiyagarajan ME17B179", "value": ["C", "h", "e", "l", "l", "a", " ", "T", "h", "i", "y", "a", "g", "a", "r", "a", "j", "a", "n", " ", "M", "E", "1", "7", "B", "1", "7", "9"], "id": "18ac6bca-387e-459a-a7ba-9d673ea6bc0e"}
+2021-03-11 12:00:40,047:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/18ac6bca-387e-459a-a7ba-9d673ea6bc0e/value HTTP/1.1" 200 14
+2021-03-11 12:00:40,048:DEBUG:Finished Request
+2021-03-11 12:00:40,048:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/5361124d-4acf-43c0-97ea-4bc6dfc9a1eb/value {"text": "me17b179@smail.iitm.ac.in", "value": ["m", "e", "1", "7", "b", "1", "7", "9", "@", "s", "m", "a", "i", "l", ".", "i", "i", "t", "m", ".", "a", "c", ".", "i", "n"], "id": "5361124d-4acf-43c0-97ea-4bc6dfc9a1eb"}
+2021-03-11 12:00:40,173:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/5361124d-4acf-43c0-97ea-4bc6dfc9a1eb/value HTTP/1.1" 200 14
+2021-03-11 12:00:40,173:DEBUG:Finished Request
+2021-03-11 12:00:40,173:INFO:username and email id filling is executing...
+2021-03-11 12:00:40,173:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element {"using": "css selector", "value": "[id=\"guest_next-btn\"]"}
+2021-03-11 12:00:40,183:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element HTTP/1.1" 200 88
+2021-03-11 12:00:40,184:DEBUG:Finished Request
+2021-03-11 12:00:40,184:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/12e6f2f6-a730-41b4-ab70-ab094e68c37f/click {"id": "12e6f2f6-a730-41b4-ab70-ab094e68c37f"}
+2021-03-11 12:00:40,264:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/12e6f2f6-a730-41b4-ab70-ab094e68c37f/click HTTP/1.1" 200 14
+2021-03-11 12:00:40,265:DEBUG:Finished Request
+2021-03-11 12:00:40,265:INFO:clicking next button is executing...
+2021-03-11 12:00:50,273:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/frame {"id": null}
+2021-03-11 12:00:50,309:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/frame HTTP/1.1" 200 14
+2021-03-11 12:00:50,310:DEBUG:Finished Request
+2021-03-11 12:00:50,312:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:00:50,337:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element HTTP/1.1" 200 88
+2021-03-11 12:00:50,338:DEBUG:Finished Request
+2021-03-11 12:00:50,338:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/frame {"id": {"ELEMENT": "d1f3d4c7-efb8-4464-8182-80afe2acbee6", "element-6066-11e4-a52e-4f735466cecf": "d1f3d4c7-efb8-4464-8182-80afe2acbee6"}}
+2021-03-11 12:00:50,375:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/frame HTTP/1.1" 200 14
+2021-03-11 12:00:50,375:DEBUG:Finished Request
+2021-03-11 12:00:50,376:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/elements {"using": "css selector", "value": ".style-text-vqI8d"}
+2021-03-11 12:00:50,405:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/elements HTTP/1.1" 200 169
+2021-03-11 12:00:50,406:DEBUG:Finished Request
+2021-03-11 12:00:50,406:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/e37109ea-1f76-456e-8dc7-94d86a0d54a9/click {"id": "e37109ea-1f76-456e-8dc7-94d86a0d54a9"}
+2021-03-11 12:00:50,545:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/e37109ea-1f76-456e-8dc7-94d86a0d54a9/click HTTP/1.1" 200 14
+2021-03-11 12:00:50,546:DEBUG:Finished Request
+2021-03-11 12:00:50,546:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/904d542c-bce9-4f2b-a068-4d8b1ec2d8f0/click {"id": "904d542c-bce9-4f2b-a068-4d8b1ec2d8f0"}
+2021-03-11 12:00:50,630:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/904d542c-bce9-4f2b-a068-4d8b1ec2d8f0/click HTTP/1.1" 200 14
+2021-03-11 12:00:50,631:DEBUG:Finished Request
+2021-03-11 12:00:50,631:INFO:clicking mute and off camera button is executing...
+2021-03-11 12:00:50,631:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element {"using": "css selector", "value": "[id=\"interstitial_join_btn\"]"}
+2021-03-11 12:00:50,643:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element HTTP/1.1" 200 88
+2021-03-11 12:00:50,643:DEBUG:Finished Request
+2021-03-11 12:00:50,643:DEBUG:POST http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13/element/23654580-4f04-4b06-b920-67755017e434/click {"id": "23654580-4f04-4b06-b920-67755017e434"}
+2021-03-11 12:00:50,750:DEBUG:http://127.0.0.1:43227 "POST /session/2d87e8fad58d52eea58633945fbfcb13/element/23654580-4f04-4b06-b920-67755017e434/click HTTP/1.1" 200 14
+2021-03-11 12:00:50,751:DEBUG:Finished Request
+2021-03-11 12:00:50,751:INFO:clicking final join button is executing...
+2021-03-11 12:00:50,751:INFO:webex class is successfully logged in
+2021-03-11 12:10:58,063:INFO:We will now wait for 1seconds for the next class
+2021-03-11 12:11:01,012:DEBUG:POST http://127.0.0.1:57689/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:11:01,013:DEBUG:Starting new HTTP connection (1): 127.0.0.1:57689
+2021-03-11 12:11:02,215:DEBUG:http://127.0.0.1:57689 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:11:02,216:DEBUG:Finished Request
+2021-03-11 12:11:02,216:DEBUG:POST http://127.0.0.1:57689/session/d3be43fc9e3405411ba1ce08fad48bf4/window/minimize {}
+2021-03-11 12:11:02,344:DEBUG:http://127.0.0.1:57689 "POST /session/d3be43fc9e3405411ba1ce08fad48bf4/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:11:02,344:DEBUG:Finished Request
+2021-03-11 12:11:02,345:INFO:open browser code is successfully executed
+2021-03-11 12:11:02,345:DEBUG:POST http://127.0.0.1:57689/session/d3be43fc9e3405411ba1ce08fad48bf4/url {"url": "Chella Thiyagarajan N's Personal Room"}
+2021-03-11 12:11:02,351:DEBUG:http://127.0.0.1:57689 "POST /session/d3be43fc9e3405411ba1ce08fad48bf4/url HTTP/1.1" 400 157
+2021-03-11 12:11:02,351:DEBUG:Finished Request
+2021-03-11 12:11:02,352:ERROR:Error with browser navigations: Message: invalid argument
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:11:02,352:DEBUG:DELETE http://127.0.0.1:57689/session/d3be43fc9e3405411ba1ce08fad48bf4 {}
+2021-03-11 12:11:02,504:DEBUG:http://127.0.0.1:57689 "DELETE /session/d3be43fc9e3405411ba1ce08fad48bf4 HTTP/1.1" 200 14
+2021-03-11 12:11:02,505:DEBUG:Finished Request
+2021-03-11 12:11:02,514:WARNING:online class is unable to open - trying again
+2021-03-11 12:11:03,518:DEBUG:POST http://127.0.0.1:56747/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:11:03,518:DEBUG:Starting new HTTP connection (1): 127.0.0.1:56747
+2021-03-11 12:11:03,878:DEBUG:http://127.0.0.1:56747 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:11:03,878:DEBUG:Finished Request
+2021-03-11 12:11:03,878:DEBUG:POST http://127.0.0.1:56747/session/0c77043b72d31af3210b5d209f22ef5b/window/minimize {}
+2021-03-11 12:11:03,983:DEBUG:http://127.0.0.1:56747 "POST /session/0c77043b72d31af3210b5d209f22ef5b/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:11:03,983:DEBUG:Finished Request
+2021-03-11 12:11:03,983:INFO:open browser code is successfully executed
+2021-03-11 12:11:03,983:DEBUG:POST http://127.0.0.1:56747/session/0c77043b72d31af3210b5d209f22ef5b/url {"url": "Chella Thiyagarajan N's Personal Room"}
+2021-03-11 12:11:03,987:DEBUG:http://127.0.0.1:56747 "POST /session/0c77043b72d31af3210b5d209f22ef5b/url HTTP/1.1" 400 157
+2021-03-11 12:11:03,987:DEBUG:Finished Request
+2021-03-11 12:11:03,987:ERROR:Error with browser navigations: Message: invalid argument
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:11:03,987:DEBUG:DELETE http://127.0.0.1:56747/session/0c77043b72d31af3210b5d209f22ef5b {}
+2021-03-11 12:11:04,741:DEBUG:http://127.0.0.1:56747 "DELETE /session/0c77043b72d31af3210b5d209f22ef5b HTTP/1.1" 200 14
+2021-03-11 12:11:04,742:DEBUG:Finished Request
+2021-03-11 12:11:04,750:WARNING:online class is unable to open - trying again
+2021-03-11 12:11:05,757:DEBUG:POST http://127.0.0.1:50743/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:11:05,758:DEBUG:Starting new HTTP connection (1): 127.0.0.1:50743
+2021-03-11 12:11:06,216:DEBUG:http://127.0.0.1:50743 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:11:06,216:DEBUG:Finished Request
+2021-03-11 12:11:06,217:DEBUG:POST http://127.0.0.1:50743/session/88f2e60e85b985f73d753d9d6a6ef196/window/minimize {}
+2021-03-11 12:11:06,330:DEBUG:http://127.0.0.1:50743 "POST /session/88f2e60e85b985f73d753d9d6a6ef196/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:11:06,330:DEBUG:Finished Request
+2021-03-11 12:11:06,330:INFO:open browser code is successfully executed
+2021-03-11 12:11:06,331:DEBUG:POST http://127.0.0.1:50743/session/88f2e60e85b985f73d753d9d6a6ef196/url {"url": "Chella Thiyagarajan N's Personal Room"}
+2021-03-11 12:11:06,335:DEBUG:http://127.0.0.1:50743 "POST /session/88f2e60e85b985f73d753d9d6a6ef196/url HTTP/1.1" 400 157
+2021-03-11 12:11:06,335:DEBUG:Finished Request
+2021-03-11 12:11:06,336:ERROR:Error with browser navigations: Message: invalid argument
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:11:06,336:DEBUG:DELETE http://127.0.0.1:50743/session/88f2e60e85b985f73d753d9d6a6ef196 {}
+2021-03-11 12:11:07,293:DEBUG:http://127.0.0.1:50743 "DELETE /session/88f2e60e85b985f73d753d9d6a6ef196 HTTP/1.1" 200 14
+2021-03-11 12:11:07,295:DEBUG:Finished Request
+2021-03-11 12:11:07,312:WARNING:online class is unable to open - trying again
+2021-03-11 12:11:08,327:DEBUG:POST http://127.0.0.1:49201/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:11:08,331:DEBUG:Starting new HTTP connection (1): 127.0.0.1:49201
+2021-03-11 12:11:08,709:DEBUG:http://127.0.0.1:49201 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:11:08,709:DEBUG:Finished Request
+2021-03-11 12:11:08,709:DEBUG:POST http://127.0.0.1:49201/session/1cdc6dafb07bd691ce9dd380d9362550/window/minimize {}
+2021-03-11 12:11:08,825:DEBUG:http://127.0.0.1:49201 "POST /session/1cdc6dafb07bd691ce9dd380d9362550/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:11:08,826:DEBUG:Finished Request
+2021-03-11 12:11:08,826:INFO:open browser code is successfully executed
+2021-03-11 12:11:08,826:DEBUG:POST http://127.0.0.1:49201/session/1cdc6dafb07bd691ce9dd380d9362550/url {"url": "Chella Thiyagarajan N's Personal Room"}
+2021-03-11 12:11:08,836:DEBUG:http://127.0.0.1:49201 "POST /session/1cdc6dafb07bd691ce9dd380d9362550/url HTTP/1.1" 400 157
+2021-03-11 12:11:08,837:DEBUG:Finished Request
+2021-03-11 12:11:08,837:ERROR:Error with browser navigations: Message: invalid argument
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:11:08,837:DEBUG:DELETE http://127.0.0.1:49201/session/1cdc6dafb07bd691ce9dd380d9362550 {}
+2021-03-11 12:11:48,842:INFO:We will now wait for 11seconds for the next class
+2021-03-11 12:12:01,012:DEBUG:POST http://127.0.0.1:46083/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:12:01,013:DEBUG:Starting new HTTP connection (1): 127.0.0.1:46083
+2021-03-11 12:12:01,380:DEBUG:http://127.0.0.1:46083 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:12:01,381:DEBUG:Finished Request
+2021-03-11 12:12:01,381:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/window/minimize {}
+2021-03-11 12:12:01,507:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:12:01,508:DEBUG:Finished Request
+2021-03-11 12:12:01,508:INFO:open browser code is successfully executed
+2021-03-11 12:12:01,508:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/url {"url": "https://meet66.webex.com/meet/pr1587341261"}
+2021-03-11 12:12:06,136:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/url HTTP/1.1" 200 14
+2021-03-11 12:12:06,137:DEBUG:Finished Request
+2021-03-11 12:12:06,137:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element {"using": "css selector", "value": "[id=\"smartJoinButton\"]"}
+2021-03-11 12:12:06,151:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element HTTP/1.1" 200 88
+2021-03-11 12:12:06,152:DEBUG:Finished Request
+2021-03-11 12:12:06,152:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/90cf9e05-e72e-424c-a8b1-aceedc1275b0/click {"id": "90cf9e05-e72e-424c-a8b1-aceedc1275b0"}
+2021-03-11 12:12:07,407:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/90cf9e05-e72e-424c-a8b1-aceedc1275b0/click HTTP/1.1" 200 14
+2021-03-11 12:12:07,407:DEBUG:Finished Request
+2021-03-11 12:12:07,407:INFO:clicking join meeting button is executing...
+2021-03-11 12:12:12,412:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:12:12,480:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element HTTP/1.1" 200 88
+2021-03-11 12:12:12,481:DEBUG:Finished Request
+2021-03-11 12:12:12,481:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/frame {"id": {"ELEMENT": "19784e53-23cc-49ec-90ed-5ab81f1f198d", "element-6066-11e4-a52e-4f735466cecf": "19784e53-23cc-49ec-90ed-5ab81f1f198d"}}
+2021-03-11 12:12:12,512:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/frame HTTP/1.1" 200 14
+2021-03-11 12:12:12,512:DEBUG:Finished Request
+2021-03-11 12:12:12,512:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/elements {"using": "css selector", "value": ".style-input-2nuAk.undefined"}
+2021-03-11 12:12:12,530:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/elements HTTP/1.1" 200 169
+2021-03-11 12:12:12,530:DEBUG:Finished Request
+2021-03-11 12:12:12,531:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/22c491f4-7633-4b23-a562-e6e2c82be8ba/value {"text": "jhg", "value": ["j", "h", "g"], "id": "22c491f4-7633-4b23-a562-e6e2c82be8ba"}
+2021-03-11 12:12:12,596:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/22c491f4-7633-4b23-a562-e6e2c82be8ba/value HTTP/1.1" 200 14
+2021-03-11 12:12:12,597:DEBUG:Finished Request
+2021-03-11 12:12:12,598:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/851f9abd-5039-4c33-80ae-e630e5ce4197/value {"text": "asd@gmail.com", "value": ["a", "s", "d", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "851f9abd-5039-4c33-80ae-e630e5ce4197"}
+2021-03-11 12:12:12,683:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/851f9abd-5039-4c33-80ae-e630e5ce4197/value HTTP/1.1" 200 14
+2021-03-11 12:12:12,684:DEBUG:Finished Request
+2021-03-11 12:12:12,684:INFO:username and email id filling is executing...
+2021-03-11 12:12:12,684:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element {"using": "css selector", "value": "[id=\"guest_next-btn\"]"}
+2021-03-11 12:12:12,695:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element HTTP/1.1" 200 88
+2021-03-11 12:12:12,695:DEBUG:Finished Request
+2021-03-11 12:12:12,695:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/4579a224-f7cd-40fe-935b-b615780b6ca7/click {"id": "4579a224-f7cd-40fe-935b-b615780b6ca7"}
+2021-03-11 12:12:12,777:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/4579a224-f7cd-40fe-935b-b615780b6ca7/click HTTP/1.1" 200 14
+2021-03-11 12:12:12,778:DEBUG:Finished Request
+2021-03-11 12:12:12,778:INFO:clicking next button is executing...
+2021-03-11 12:12:22,784:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/frame {"id": null}
+2021-03-11 12:12:22,791:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/frame HTTP/1.1" 200 14
+2021-03-11 12:12:22,792:DEBUG:Finished Request
+2021-03-11 12:12:22,792:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:12:22,800:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element HTTP/1.1" 200 88
+2021-03-11 12:12:22,800:DEBUG:Finished Request
+2021-03-11 12:12:22,800:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/frame {"id": {"ELEMENT": "19784e53-23cc-49ec-90ed-5ab81f1f198d", "element-6066-11e4-a52e-4f735466cecf": "19784e53-23cc-49ec-90ed-5ab81f1f198d"}}
+2021-03-11 12:12:22,814:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/frame HTTP/1.1" 200 14
+2021-03-11 12:12:22,814:DEBUG:Finished Request
+2021-03-11 12:12:22,814:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/elements {"using": "css selector", "value": ".style-text-vqI8d"}
+2021-03-11 12:12:22,829:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/elements HTTP/1.1" 200 169
+2021-03-11 12:12:22,829:DEBUG:Finished Request
+2021-03-11 12:12:22,829:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/a7d21515-e129-4539-b76a-3a4b51f32dcc/click {"id": "a7d21515-e129-4539-b76a-3a4b51f32dcc"}
+2021-03-11 12:12:22,921:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/a7d21515-e129-4539-b76a-3a4b51f32dcc/click HTTP/1.1" 200 14
+2021-03-11 12:12:22,921:DEBUG:Finished Request
+2021-03-11 12:12:22,921:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/0fb73145-26d1-4f38-860b-475f149321f5/click {"id": "0fb73145-26d1-4f38-860b-475f149321f5"}
+2021-03-11 12:12:23,038:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/0fb73145-26d1-4f38-860b-475f149321f5/click HTTP/1.1" 200 14
+2021-03-11 12:12:23,038:DEBUG:Finished Request
+2021-03-11 12:12:23,038:INFO:clicking mute and off camera button is executing...
+2021-03-11 12:12:23,038:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element {"using": "css selector", "value": "[id=\"interstitial_join_btn\"]"}
+2021-03-11 12:12:23,051:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element HTTP/1.1" 200 88
+2021-03-11 12:12:23,051:DEBUG:Finished Request
+2021-03-11 12:12:23,051:DEBUG:POST http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44/element/57b77a34-ab47-4703-b8e3-6edb60af46b1/click {"id": "57b77a34-ab47-4703-b8e3-6edb60af46b1"}
+2021-03-11 12:12:23,161:DEBUG:http://127.0.0.1:46083 "POST /session/e9d38d606bf152c1cf29e5e360dfbb44/element/57b77a34-ab47-4703-b8e3-6edb60af46b1/click HTTP/1.1" 200 14
+2021-03-11 12:12:23,161:DEBUG:Finished Request
+2021-03-11 12:12:23,162:INFO:clicking final join button is executing...
+2021-03-11 12:12:23,162:INFO:webex class is successfully logged in
+2021-03-11 12:14:59,260:DEBUG:DELETE http://127.0.0.1:46083/session/e9d38d606bf152c1cf29e5e360dfbb44 {}
+2021-03-11 12:14:59,261:DEBUG:http://127.0.0.1:46083 "DELETE /session/e9d38d606bf152c1cf29e5e360dfbb44 HTTP/1.1" 200 14
+2021-03-11 12:14:59,261:DEBUG:Finished Request
+2021-03-11 12:14:59,275:INFO:class 1 with slot 12:12 is successfully bunked
+2021-03-11 12:25:03,431:INFO:We will now wait for 56seconds for the next class
+2021-03-11 12:26:01,013:DEBUG:POST http://127.0.0.1:38529/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:26:01,014:DEBUG:Starting new HTTP connection (1): 127.0.0.1:38529
+2021-03-11 12:26:06,003:DEBUG:http://127.0.0.1:38529 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:26:06,003:DEBUG:Finished Request
+2021-03-11 12:26:06,004:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/window/minimize {}
+2021-03-11 12:26:06,155:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:26:06,157:DEBUG:Finished Request
+2021-03-11 12:26:06,157:INFO:open browser code is successfully executed
+2021-03-11 12:26:06,159:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/url {"url": "https://meet66.webex.com/meet/pr1587341261"}
+2021-03-11 12:26:12,020:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/url HTTP/1.1" 200 14
+2021-03-11 12:26:12,021:DEBUG:Finished Request
+2021-03-11 12:26:12,021:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "css selector", "value": "[id=\"smartJoinButton\"]"}
+2021-03-11 12:26:12,036:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 200 88
+2021-03-11 12:26:12,037:DEBUG:Finished Request
+2021-03-11 12:26:12,037:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element/5c455a64-e148-416d-9a14-c2407dab0193/click {"id": "5c455a64-e148-416d-9a14-c2407dab0193"}
+2021-03-11 12:26:14,170:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element/5c455a64-e148-416d-9a14-c2407dab0193/click HTTP/1.1" 200 14
+2021-03-11 12:26:14,171:DEBUG:Finished Request
+2021-03-11 12:26:14,171:INFO:clicking join meeting button is executing...
+2021-03-11 12:26:19,176:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "css selector", "value": "[id=\"pbui_iframe\"]"}
+2021-03-11 12:26:19,199:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 200 88
+2021-03-11 12:26:19,199:DEBUG:Finished Request
+2021-03-11 12:26:19,199:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/frame {"id": {"ELEMENT": "21eb93ee-844d-49c1-9c9b-c9e6441e3967", "element-6066-11e4-a52e-4f735466cecf": "21eb93ee-844d-49c1-9c9b-c9e6441e3967"}}
+2021-03-11 12:26:19,237:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/frame HTTP/1.1" 200 14
+2021-03-11 12:26:19,238:DEBUG:Finished Request
+2021-03-11 12:26:19,238:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/elements {"using": "css selector", "value": ".style-input-2nuAk.undefined"}
+2021-03-11 12:26:19,272:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/elements HTTP/1.1" 200 169
+2021-03-11 12:26:19,273:DEBUG:Finished Request
+2021-03-11 12:26:19,273:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element/150a8dfa-508e-4cd8-b3e7-886bdbe02ffd/value {"text": "chella", "value": ["c", "h", "e", "l", "l", "a"], "id": "150a8dfa-508e-4cd8-b3e7-886bdbe02ffd"}
+2021-03-11 12:26:19,333:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element/150a8dfa-508e-4cd8-b3e7-886bdbe02ffd/value HTTP/1.1" 200 14
+2021-03-11 12:26:19,333:DEBUG:Finished Request
+2021-03-11 12:26:19,333:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element/fce43afe-a6be-44b5-a765-37cb9e39ee85/value {"text": "me17b179@smail.iitm.ac.in", "value": ["m", "e", "1", "7", "b", "1", "7", "9", "@", "s", "m", "a", "i", "l", ".", "i", "i", "t", "m", ".", "a", "c", ".", "i", "n"], "id": "fce43afe-a6be-44b5-a765-37cb9e39ee85"}
+2021-03-11 12:26:19,481:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element/fce43afe-a6be-44b5-a765-37cb9e39ee85/value HTTP/1.1" 200 14
+2021-03-11 12:26:19,482:DEBUG:Finished Request
+2021-03-11 12:26:19,482:INFO:username and email id filling is executing...
+2021-03-11 12:26:19,482:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "css selector", "value": "[id=\"guest_next-btn\"]"}
+2021-03-11 12:26:19,502:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 200 88
+2021-03-11 12:26:19,503:DEBUG:Finished Request
+2021-03-11 12:26:19,503:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element/80413351-527d-444e-8919-674361c5a2ea/click {"id": "80413351-527d-444e-8919-674361c5a2ea"}
+2021-03-11 12:26:19,607:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element/80413351-527d-444e-8919-674361c5a2ea/click HTTP/1.1" 200 14
+2021-03-11 12:26:19,608:DEBUG:Finished Request
+2021-03-11 12:26:19,608:INFO:clicking next button is executing...
+2021-03-11 12:26:29,617:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/frame {"id": null}
+2021-03-11 12:26:29,631:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/frame HTTP/1.1" 200 14
+2021-03-11 12:26:29,632:DEBUG:Finished Request
+2021-03-11 12:26:29,632:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:29,658:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:29,658:DEBUG:Finished Request
+2021-03-11 12:26:30,159:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:30,168:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:30,169:DEBUG:Finished Request
+2021-03-11 12:26:30,669:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:30,680:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:30,681:DEBUG:Finished Request
+2021-03-11 12:26:31,181:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:31,191:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:31,192:DEBUG:Finished Request
+2021-03-11 12:26:31,693:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:31,703:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:31,703:DEBUG:Finished Request
+2021-03-11 12:26:32,204:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:32,213:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:32,214:DEBUG:Finished Request
+2021-03-11 12:26:32,714:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:32,723:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:32,724:DEBUG:Finished Request
+2021-03-11 12:26:33,224:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:33,234:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:33,234:DEBUG:Finished Request
+2021-03-11 12:26:33,735:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:33,743:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:33,744:DEBUG:Finished Request
+2021-03-11 12:26:34,245:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:34,254:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:34,254:DEBUG:Finished Request
+2021-03-11 12:26:34,755:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:34,779:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:34,779:DEBUG:Finished Request
+2021-03-11 12:26:35,280:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:35,291:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:35,291:DEBUG:Finished Request
+2021-03-11 12:26:35,792:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:35,801:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:35,801:DEBUG:Finished Request
+2021-03-11 12:26:36,302:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:36,317:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:36,318:DEBUG:Finished Request
+2021-03-11 12:26:36,819:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:36,835:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:36,835:DEBUG:Finished Request
+2021-03-11 12:26:37,336:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:37,350:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:37,351:DEBUG:Finished Request
+2021-03-11 12:26:37,851:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:37,864:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:37,865:DEBUG:Finished Request
+2021-03-11 12:26:38,366:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:38,380:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:38,380:DEBUG:Finished Request
+2021-03-11 12:26:38,881:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:38,897:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:38,898:DEBUG:Finished Request
+2021-03-11 12:26:39,399:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:39,409:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:39,410:DEBUG:Finished Request
+2021-03-11 12:26:39,910:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:39,919:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:39,920:DEBUG:Finished Request
+2021-03-11 12:26:40,421:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:40,431:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:40,431:DEBUG:Finished Request
+2021-03-11 12:26:40,932:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:40,942:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:40,942:DEBUG:Finished Request
+2021-03-11 12:26:41,443:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:41,455:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:41,455:DEBUG:Finished Request
+2021-03-11 12:26:41,956:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:41,969:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:41,969:DEBUG:Finished Request
+2021-03-11 12:26:42,470:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:42,480:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:42,481:DEBUG:Finished Request
+2021-03-11 12:26:42,981:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:42,992:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:42,992:DEBUG:Finished Request
+2021-03-11 12:26:43,493:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:43,524:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:43,526:DEBUG:Finished Request
+2021-03-11 12:26:44,027:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:44,039:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:44,040:DEBUG:Finished Request
+2021-03-11 12:26:44,541:DEBUG:POST http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div/div[1]/button"}
+2021-03-11 12:26:44,551:DEBUG:http://127.0.0.1:38529 "POST /session/99225af46bb9f80e508fd3fc0f7e9a7c/element HTTP/1.1" 404 277
+2021-03-11 12:26:44,552:DEBUG:Finished Request
+2021-03-11 12:26:45,052:ERROR:Error with browser navigations: Message: 
+
+2021-03-11 12:26:45,053:DEBUG:DELETE http://127.0.0.1:38529/session/99225af46bb9f80e508fd3fc0f7e9a7c {}
+2021-03-11 12:26:45,306:DEBUG:http://127.0.0.1:38529 "DELETE /session/99225af46bb9f80e508fd3fc0f7e9a7c HTTP/1.1" 200 14
+2021-03-11 12:26:45,306:DEBUG:Finished Request
+2021-03-11 12:26:45,348:WARNING:online class is unable to open - trying again
+2021-03-11 12:26:46,358:DEBUG:POST http://127.0.0.1:39711/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:26:46,359:DEBUG:Starting new HTTP connection (1): 127.0.0.1:39711
+2021-03-11 12:26:47,015:DEBUG:http://127.0.0.1:39711 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:26:47,015:DEBUG:Finished Request
+2021-03-11 12:26:47,016:DEBUG:POST http://127.0.0.1:39711/session/bf7c5ef5de899f3eabb710d90e81b4f8/window/minimize {}
+2021-03-11 12:26:47,125:DEBUG:http://127.0.0.1:39711 "POST /session/bf7c5ef5de899f3eabb710d90e81b4f8/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:26:47,126:DEBUG:Finished Request
+2021-03-11 12:26:47,126:INFO:open browser code is successfully executed
+2021-03-11 12:26:47,126:DEBUG:POST http://127.0.0.1:39711/session/bf7c5ef5de899f3eabb710d90e81b4f8/url {"url": "https://meet66.webex.com/meet/pr1587341261"}
+2021-03-11 12:26:53,228:DEBUG:http://127.0.0.1:39711 "POST /session/bf7c5ef5de899f3eabb710d90e81b4f8/url HTTP/1.1" 200 14
+2021-03-11 12:26:53,229:DEBUG:Finished Request
+2021-03-11 12:26:53,229:DEBUG:POST http://127.0.0.1:39711/session/bf7c5ef5de899f3eabb710d90e81b4f8/element {"using": "css selector", "value": "[id=\"smartJoinButton\"]"}
+2021-03-11 12:26:53,251:DEBUG:http://127.0.0.1:39711 "POST /session/bf7c5ef5de899f3eabb710d90e81b4f8/element HTTP/1.1" 200 88
+2021-03-11 12:26:53,252:DEBUG:Finished Request
+2021-03-11 12:26:53,252:DEBUG:POST http://127.0.0.1:39711/session/bf7c5ef5de899f3eabb710d90e81b4f8/element/06c43b17-840c-4bb0-ab46-df7e5fe659f7/click {"id": "06c43b17-840c-4bb0-ab46-df7e5fe659f7"}
+2021-03-11 12:26:54,335:DEBUG:http://127.0.0.1:39711 "POST /session/bf7c5ef5de899f3eabb710d90e81b4f8/element/06c43b17-840c-4bb0-ab46-df7e5fe659f7/click HTTP/1.1" 400 500
+2021-03-11 12:26:54,337:DEBUG:Finished Request
+2021-03-11 12:26:54,338:INFO:clicking join meeting button is executing...
+2021-03-11 12:26:54,338:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:26:54,339:DEBUG:DELETE http://127.0.0.1:39711/session/bf7c5ef5de899f3eabb710d90e81b4f8 {}
+2021-03-11 12:26:54,464:DEBUG:http://127.0.0.1:39711 "DELETE /session/bf7c5ef5de899f3eabb710d90e81b4f8 HTTP/1.1" 200 14
+2021-03-11 12:26:54,465:DEBUG:Finished Request
+2021-03-11 12:26:54,468:WARNING:online class is unable to open - trying again
+2021-03-11 12:26:55,474:DEBUG:POST http://127.0.0.1:37091/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:26:55,475:DEBUG:Starting new HTTP connection (1): 127.0.0.1:37091
+2021-03-11 12:26:55,952:DEBUG:http://127.0.0.1:37091 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:26:55,953:DEBUG:Finished Request
+2021-03-11 12:26:55,953:DEBUG:POST http://127.0.0.1:37091/session/7e4611990e7b95c5589a0e621b1df0c8/window/minimize {}
+2021-03-11 12:26:56,058:DEBUG:http://127.0.0.1:37091 "POST /session/7e4611990e7b95c5589a0e621b1df0c8/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:26:56,058:DEBUG:Finished Request
+2021-03-11 12:26:56,058:INFO:open browser code is successfully executed
+2021-03-11 12:26:56,059:DEBUG:POST http://127.0.0.1:37091/session/7e4611990e7b95c5589a0e621b1df0c8/url {"url": "https://meet66.webex.com/meet/pr1587341261"}
+2021-03-11 12:27:00,873:DEBUG:http://127.0.0.1:37091 "POST /session/7e4611990e7b95c5589a0e621b1df0c8/url HTTP/1.1" 200 14
+2021-03-11 12:27:00,874:DEBUG:Finished Request
+2021-03-11 12:27:00,874:DEBUG:POST http://127.0.0.1:37091/session/7e4611990e7b95c5589a0e621b1df0c8/element {"using": "css selector", "value": "[id=\"smartJoinButton\"]"}
+2021-03-11 12:27:00,887:DEBUG:http://127.0.0.1:37091 "POST /session/7e4611990e7b95c5589a0e621b1df0c8/element HTTP/1.1" 200 88
+2021-03-11 12:27:00,887:DEBUG:Finished Request
+2021-03-11 12:27:00,887:DEBUG:POST http://127.0.0.1:37091/session/7e4611990e7b95c5589a0e621b1df0c8/element/b87b4ce6-5c0e-4e0d-8cc5-23e2118dba5c/click {"id": "b87b4ce6-5c0e-4e0d-8cc5-23e2118dba5c"}
+2021-03-11 12:27:01,940:DEBUG:http://127.0.0.1:37091 "POST /session/7e4611990e7b95c5589a0e621b1df0c8/element/b87b4ce6-5c0e-4e0d-8cc5-23e2118dba5c/click HTTP/1.1" 400 500
+2021-03-11 12:27:01,941:DEBUG:Finished Request
+2021-03-11 12:27:01,941:INFO:clicking join meeting button is executing...
+2021-03-11 12:27:01,941:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:27:01,941:DEBUG:DELETE http://127.0.0.1:37091/session/7e4611990e7b95c5589a0e621b1df0c8 {}
+2021-03-11 12:27:02,093:DEBUG:http://127.0.0.1:37091 "DELETE /session/7e4611990e7b95c5589a0e621b1df0c8 HTTP/1.1" 200 14
+2021-03-11 12:27:02,093:DEBUG:Finished Request
+2021-03-11 12:27:02,103:WARNING:online class is unable to open - trying again
+2021-03-11 12:27:03,109:DEBUG:POST http://127.0.0.1:41299/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.notifications": 2}, "extensions": [], "args": ["--disable-infobars", "--disable-extensions", "--mute-audio"]}}}
+2021-03-11 12:27:03,110:DEBUG:Starting new HTTP connection (1): 127.0.0.1:41299
+2021-03-11 12:27:03,691:DEBUG:http://127.0.0.1:41299 "POST /session HTTP/1.1" 200 717
+2021-03-11 12:27:03,692:DEBUG:Finished Request
+2021-03-11 12:27:03,692:DEBUG:POST http://127.0.0.1:41299/session/09555f82ac116d98ab90a213f261108e/window/minimize {}
+2021-03-11 12:27:03,827:DEBUG:http://127.0.0.1:41299 "POST /session/09555f82ac116d98ab90a213f261108e/window/minimize HTTP/1.1" 200 51
+2021-03-11 12:27:03,827:DEBUG:Finished Request
+2021-03-11 12:27:03,828:INFO:open browser code is successfully executed
+2021-03-11 12:27:03,828:DEBUG:POST http://127.0.0.1:41299/session/09555f82ac116d98ab90a213f261108e/url {"url": "https://meet66.webex.com/meet/pr1587341261"}
+2021-03-11 12:33:06,292:INFO:We will now wait for 86393seconds for the next class
+2021-03-11 12:33:54,334:INFO:We will now wait for 65seconds for the next class
+2021-03-11 12:35:01,514:INFO:open browser code is successfully executed
+2021-03-11 12:35:06,911:INFO:clicking join meeting button is executing...
+2021-03-11 12:35:06,912:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:35:06,975:WARNING:online class is unable to open - trying again
+2021-03-11 12:35:08,572:INFO:open browser code is successfully executed
+2021-03-11 12:35:15,673:INFO:clicking join meeting button is executing...
+2021-03-11 12:35:20,928:INFO:username and email id filling is executing...
+2021-03-11 12:35:21,048:INFO:clicking next button is executing...
+2021-03-11 12:35:46,380:ERROR:Error with browser navigations: Message: 
+
+2021-03-11 12:35:46,449:WARNING:online class is unable to open - trying again
+2021-03-11 12:35:49,048:INFO:open browser code is successfully executed
+2021-03-11 12:35:53,671:INFO:clicking join meeting button is executing...
+2021-03-11 12:35:53,671:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:35:54,158:WARNING:online class is unable to open - trying again
+2021-03-11 12:35:55,747:INFO:open browser code is successfully executed
+2021-03-11 12:36:02,469:INFO:clicking join meeting button is executing...
+2021-03-11 12:36:02,469:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:36:03,330:WARNING:online class is unable to open - trying again
+2021-03-11 12:36:04,964:INFO:open browser code is successfully executed
+2021-03-11 12:36:12,680:INFO:clicking join meeting button is executing...
+2021-03-11 12:36:17,951:INFO:username and email id filling is executing...
+2021-03-11 12:36:18,107:INFO:clicking next button is executing...
+2021-03-11 12:36:43,618:ERROR:Error with browser navigations: Message: 
+
+2021-03-11 12:36:43,706:WARNING:online class is unable to open - trying again
+2021-03-11 12:36:46,514:INFO:open browser code is successfully executed
+2021-03-11 12:36:52,103:INFO:clicking join meeting button is executing...
+2021-03-11 12:36:52,104:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:36:53,089:WARNING:online class is unable to open - trying again
+2021-03-11 12:36:54,650:INFO:open browser code is successfully executed
+2021-03-11 12:37:04,029:INFO:clicking join meeting button is executing...
+2021-03-11 12:37:04,029:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:37:04,546:WARNING:online class is unable to open - trying again
+2021-03-11 12:37:06,117:INFO:open browser code is successfully executed
+2021-03-11 12:37:11,944:INFO:clicking join meeting button is executing...
+2021-03-11 12:37:11,944:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:37:12,015:WARNING:online class is unable to open - trying again
+2021-03-11 12:37:13,740:INFO:open browser code is successfully executed
+2021-03-11 12:37:19,368:INFO:clicking join meeting button is executing...
+2021-03-11 12:37:19,368:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:37:19,428:WARNING:online class is unable to open - trying again
+2021-03-11 12:37:21,101:INFO:open browser code is successfully executed
+2021-03-11 12:37:26,647:INFO:clicking join meeting button is executing...
+2021-03-11 12:37:26,649:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:37:26,927:WARNING:online class is unable to open - trying again
+2021-03-11 12:37:28,750:INFO:open browser code is successfully executed
+2021-03-11 12:37:35,340:INFO:clicking join meeting button is executing...
+2021-03-11 12:37:35,340:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:37:35,408:WARNING:online class is unable to open - trying again
+2021-03-11 12:37:37,103:INFO:open browser code is successfully executed
+2021-03-11 12:37:44,270:INFO:clicking join meeting button is executing...
+2021-03-11 12:37:44,271:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:37:44,578:WARNING:online class is unable to open - trying again
+2021-03-11 12:37:46,229:INFO:open browser code is successfully executed
+2021-03-11 12:40:24,720:INFO:We will now wait for 95seconds for the next class
+2021-03-11 12:42:01,708:INFO:open browser code is successfully executed
+2021-03-11 12:42:16,235:INFO:clicking join meeting button is executing...
+2021-03-11 12:42:16,235:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:42:16,295:WARNING:online class is unable to open - trying again
+2021-03-11 12:42:17,914:INFO:open browser code is successfully executed
+2021-03-11 12:42:30,559:INFO:clicking join meeting button is executing...
+2021-03-11 12:42:30,560:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:42:30,620:WARNING:online class is unable to open - trying again
+2021-03-11 12:42:32,200:INFO:open browser code is successfully executed
+2021-03-11 12:42:38,491:INFO:clicking join meeting button is executing...
+2021-03-11 12:42:38,491:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:42:39,466:WARNING:online class is unable to open - trying again
+2021-03-11 12:42:41,156:INFO:open browser code is successfully executed
+2021-03-11 12:42:49,048:INFO:clicking join meeting button is executing...
+2021-03-11 12:42:49,048:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:42:49,109:WARNING:online class is unable to open - trying again
+2021-03-11 12:42:50,748:INFO:open browser code is successfully executed
+2021-03-11 12:42:58,425:INFO:clicking join meeting button is executing...
+2021-03-11 12:42:58,426:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:42:58,615:WARNING:online class is unable to open - trying again
+2021-03-11 12:43:00,185:INFO:open browser code is successfully executed
+2021-03-11 12:43:06,508:INFO:clicking join meeting button is executing...
+2021-03-11 12:43:06,510:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 12:43:06,678:WARNING:online class is unable to open - trying again
+2021-03-11 12:43:08,230:INFO:open browser code is successfully executed
+2021-03-11 12:44:34,602:INFO:We will now wait for 85seconds for the next class
+2021-03-11 12:46:01,466:INFO:open browser code is successfully executed
+2021-03-11 12:46:08,187:INFO:clicking join meeting button is executing...
+2021-03-11 12:46:13,456:INFO:username and email id filling is executing...
+2021-03-11 12:46:13,558:INFO:clicking next button is executing...
+2021-03-11 12:46:39,073:ERROR:Error with browser navigations: Message: 
+
+2021-03-11 12:46:39,168:WARNING:online class is unable to open - trying again
+2021-03-11 12:46:41,752:INFO:open browser code is successfully executed
+2021-03-11 12:46:48,327:INFO:clicking join meeting button is executing...
+2021-03-11 12:46:53,581:INFO:username and email id filling is executing...
+2021-03-11 12:46:53,681:INFO:clicking next button is executing...
+2021-03-11 12:49:59,849:DEBUG:DELETE http://127.0.0.1:43227/session/2d87e8fad58d52eea58633945fbfcb13 {}
+2021-03-11 12:49:59,856:DEBUG:http://127.0.0.1:43227 "DELETE /session/2d87e8fad58d52eea58633945fbfcb13 HTTP/1.1" 200 14
+2021-03-11 12:49:59,859:DEBUG:Finished Request
+2021-03-11 12:50:00,983:INFO:class 1 with slot 12:00 is successfully bunked
+2021-03-11 12:50:00,983:INFO:We will now wait for 83399seconds for the next class
+2021-03-11 13:03:57,419:INFO:We will now wait for 62seconds for the next class
+2021-03-11 13:05:04,946:INFO:open browser code is successfully executed
+2021-03-11 13:05:12,583:INFO:clicking join meeting button is executing...
+2021-03-11 13:05:17,994:INFO:username and email id filling is executing...
+2021-03-11 13:05:18,079:INFO:clicking next button is executing...
+2021-03-11 13:05:43,542:ERROR:Error with browser navigations: Message: 
+
+2021-03-11 13:05:44,620:WARNING:online class is unable to open - trying again
+2021-03-11 13:05:46,239:INFO:open browser code is successfully executed
+2021-03-11 13:05:54,319:INFO:clicking join meeting button is executing...
+2021-03-11 13:05:59,698:INFO:username and email id filling is executing...
+2021-03-11 13:05:59,827:INFO:clicking next button is executing...
+2021-03-11 13:11:09,170:INFO:We will now wait for 110seconds for the next class
+2021-03-11 13:13:01,434:INFO:open browser code is successfully executed
+2021-03-11 13:13:09,220:INFO:clicking join meeting button is executing...
+2021-03-11 13:13:14,741:INFO:username and email id filling is executing...
+2021-03-11 13:13:14,833:INFO:clicking next button is executing...
+2021-03-11 13:13:39,933:INFO:There is no got-it banner appearing...
+2021-03-11 13:13:40,199:INFO:clicking mute and off camera button is executing...
+2021-03-11 13:13:40,319:INFO:clicking final join button is executing...
+2021-03-11 13:13:40,320:INFO:webex class is successfully logged in
+2021-03-11 13:14:59,621:INFO:class 1 with slot 13:13 is successfully bunked
+2021-03-11 13:26:22,298:INFO:We will now wait for 97seconds for the next class
+2021-03-11 13:27:22,694:INFO:We will now wait for 97seconds for the next class
+2021-03-11 13:29:02,860:INFO:open browser code is successfully executed
+2021-03-11 13:29:09,419:INFO:clicking join meeting button is executing...
+2021-03-11 13:29:09,420:ERROR:Error with browser navigations: Message: element click intercepted: Element <button type="button" class="el-button el-button--success el-button--large" id="smartJoinButton">...</button> is not clickable at point (507, 425). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave el-loading-fade-leave-active" style="">...</div>
+  (Session info: chrome=88.0.4324.182)
+
+2021-03-11 13:29:10,128:WARNING:online class is unable to open - trying again
+2021-03-11 13:29:11,700:INFO:open browser code is successfully executed
+2021-03-11 13:29:19,769:INFO:clicking join meeting button is executing...
+2021-03-11 13:29:25,090:INFO:username and email id filling is executing...
+2021-03-11 13:29:25,205:INFO:clicking next button is executing...
+2021-03-11 13:29:50,549:INFO:There is no got-it banner appearing...
+2021-03-11 13:29:50,855:INFO:clicking mute and off camera button is executing...
+2021-03-11 13:29:50,972:INFO:clicking final join button is executing...
+2021-03-11 13:29:50,972:INFO:webex class is successfully logged in
+2021-03-11 13:31:05,136:INFO:class 1 with slot 13:29 is successfully bunked
+2021-03-11 13:48:08,057:INFO:We will now wait for 411seconds for the next class
+2021-03-11 13:54:48,345:INFO:We will now wait for 191seconds for the next class
+2021-03-11 13:55:04,778:INFO:open browser code is successfully executed
+2021-03-11 13:55:12,415:INFO:clicking join meeting button is executing...
+2021-03-11 13:55:17,729:INFO:username and email id filling is executing...
+2021-03-11 13:55:17,822:INFO:clicking next button is executing...
+2021-03-11 13:55:42,893:INFO:There is no got-it banner appearing...
+2021-03-11 13:55:43,193:INFO:clicking mute and off camera button is executing...
+2021-03-11 13:55:43,320:INFO:clicking final join button is executing...
+2021-03-11 13:55:43,320:INFO:webex class is successfully logged in
+2021-03-11 13:58:01,016:INFO:open browser code is successfully executed
+2021-03-11 13:58:05,016:INFO:class 1 with slot 13:55 is successfully bunked
+2021-03-11 13:58:08,576:INFO:clicking join meeting button is executing...
+2021-03-11 13:58:13,784:INFO:username and email id filling is executing...
+2021-03-11 13:58:13,891:INFO:clicking next button is executing...
+2021-03-11 13:58:39,156:INFO:There is no got-it banner appearing...
+2021-03-11 13:58:39,477:INFO:clicking mute and off camera button is executing...
+2021-03-11 13:58:39,597:INFO:clicking final join button is executing...
+2021-03-11 13:58:39,598:INFO:webex class is successfully logged in
+2021-03-11 14:20:05,172:INFO:class 1 with slot 13:58 is successfully bunked
+2021-03-22 10:27:21,454:INFO:We will now wait for 1958seconds for the next class
+2021-03-22 11:00:20,158:INFO:open browser code is successfully executed
+2021-03-22 11:00:26,369:INFO:clicking join meeting button is executing...
+2021-03-22 11:00:41,551:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:00:42,050:WARNING:online class is unable to open - trying again...
+2021-03-22 11:00:43,383:INFO:open browser code is successfully executed
+2021-03-22 11:00:51,557:INFO:clicking join meeting button is executing...
+2021-03-22 11:01:07,037:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:01:07,570:WARNING:online class is unable to open - trying again...
+2021-03-22 11:01:08,953:INFO:open browser code is successfully executed
+2021-03-22 11:01:15,511:INFO:clicking join meeting button is executing...
+2021-03-22 11:01:30,518:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:01:30,679:WARNING:online class is unable to open - trying again...
+2021-03-22 11:01:32,040:INFO:open browser code is successfully executed
+2021-03-22 11:01:42,897:INFO:clicking join meeting button is executing...
+2021-03-22 11:01:58,276:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:01:58,338:WARNING:online class is unable to open - trying again...
+2021-03-22 11:01:59,703:INFO:open browser code is successfully executed
+2021-03-22 11:02:05,650:INFO:clicking join meeting button is executing...
+2021-03-22 11:02:21,174:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:02:21,241:WARNING:online class is unable to open - trying again...
+2021-03-22 11:02:22,593:INFO:open browser code is successfully executed
+2021-03-22 11:02:29,317:INFO:clicking join meeting button is executing...
+2021-03-22 11:02:44,446:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:02:44,530:WARNING:online class is unable to open - trying again...
+2021-03-22 11:02:46,845:INFO:open browser code is successfully executed
+2021-03-22 11:02:52,551:INFO:clicking join meeting button is executing...
+2021-03-22 11:03:07,702:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:03:07,839:WARNING:online class is unable to open - trying again...
+2021-03-22 11:03:18,830:INFO:open browser code is successfully executed
+2021-03-22 11:03:28,982:INFO:clicking join meeting button is executing...
+2021-03-22 11:03:44,101:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:03:44,186:WARNING:online class is unable to open - trying again...
+2021-03-22 11:03:45,578:INFO:open browser code is successfully executed
+2021-03-22 11:03:51,578:INFO:clicking join meeting button is executing...
+2021-03-22 11:04:06,658:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:04:06,769:WARNING:online class is unable to open - trying again...
+2021-03-22 11:04:08,193:INFO:open browser code is successfully executed
+2021-03-22 11:04:16,499:INFO:clicking join meeting button is executing...
+2021-03-22 11:04:31,599:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:04:31,700:WARNING:online class is unable to open - trying again...
+2021-03-22 11:04:33,064:INFO:open browser code is successfully executed
+2021-03-22 11:04:40,370:INFO:clicking join meeting button is executing...
+2021-03-22 11:04:55,814:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:04:55,876:WARNING:online class is unable to open - trying again...
+2021-03-22 11:04:57,446:INFO:open browser code is successfully executed
+2021-03-22 11:05:07,284:INFO:clicking join meeting button is executing...
+2021-03-22 11:05:22,373:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:05:22,438:WARNING:online class is unable to open - trying again...
+2021-03-22 11:05:23,914:INFO:open browser code is successfully executed
+2021-03-22 11:05:30,230:INFO:clicking join meeting button is executing...
+2021-03-22 11:05:45,729:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:05:45,787:WARNING:online class is unable to open - trying again...
+2021-03-22 11:05:47,158:INFO:open browser code is successfully executed
+2021-03-22 11:05:56,810:INFO:clicking join meeting button is executing...
+2021-03-22 11:06:12,263:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:06:12,328:WARNING:online class is unable to open - trying again...
+2021-03-22 11:06:13,691:INFO:open browser code is successfully executed
+2021-03-22 11:06:18,372:INFO:clicking join meeting button is executing...
+2021-03-22 11:06:33,778:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:06:33,839:WARNING:online class is unable to open - trying again...
+2021-03-22 11:06:35,170:INFO:open browser code is successfully executed
+2021-03-22 11:06:42,376:INFO:clicking join meeting button is executing...
+2021-03-22 11:06:57,398:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:06:57,473:WARNING:online class is unable to open - trying again...
+2021-03-22 11:06:58,782:INFO:open browser code is successfully executed
+2021-03-22 11:07:06,089:INFO:clicking join meeting button is executing...
+2021-03-22 11:07:21,112:ERROR:Error with browser navigations: Message: 
+
+2021-03-22 11:07:21,178:WARNING:online class is unable to open - trying again...
+2021-03-22 12:06:09,073:INFO:We will now wait for 17630seconds for the next class
+2021-03-22 17:19:48,006:INFO:We will now wait for 71seconds for the next class
+2021-03-22 17:25:29,455:INFO:We will now wait for 30seconds for the next class
+2021-03-22 17:26:22,460:INFO:open browser code is successfully executed
+2021-03-22 17:26:29,052:INFO:clicking sign in executing...
+2021-03-22 17:26:29,498:INFO:username filling executing...
+2021-03-22 17:26:34,627:INFO:password filling executing...
+2021-03-22 17:27:00,125:INFO:mute is executing...
+2021-03-22 17:27:00,216:INFO:camera blocking is executing...
+2021-03-22 17:27:00,341:INFO:join is executing...
+2021-03-22 17:27:00,341:INFO:google meet class is successfully logged in
