@@ -16,7 +16,7 @@ logging.basicConfig(filename='history.log', level=logging.INFO,
 
 # constants
 # use chrome browser
-CHROME_PATH = '/home/chella/Desktop/Coding/Python Mini Modules/selenium/chromedriver/chromedriver'
+CHROME_PATH = '/home/Desktop/Coding/Python Mini Modules/selenium/chromedriver/chromedriver'
 MEET_URL = 'https://meet.google.com/'
 
 # Specify start and start time to open and end the meet
