@@ -10,10 +10,10 @@ import datetime
 
 # constants
 # use chrome browser
-CHROME_PATH = '/home/chella/Desktop/Coding/Python Mini Modules/selenium/chromedriver/chromedriver'
+CHROME_PATH = '/home/Desktop/Coding/Python Mini Modules/selenium/chromedriver/chromedriver'
 MEET_URL = 'https://meet.google.com/'
 
-username = 'Chella Thiyagarajan N'
+username = 'Rohit'
 email_id = 'me17b179@smail.iitm.ac.in'
 meet_link = 'https://meet66.webex.com/meet/pr1587341261'
 
